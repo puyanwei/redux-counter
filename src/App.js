@@ -18,7 +18,7 @@ const App = ({ count, dispatch }) => {
 
 function mapStateToProps(state) {
 	return {
-		count: state
+		count: state.count
 	};
 }
 
